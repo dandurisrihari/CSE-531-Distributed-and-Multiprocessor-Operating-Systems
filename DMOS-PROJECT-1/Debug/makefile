@@ -23,19 +23,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: PROJECT-1
+all: DMOS-PROJECT-1
 
 # Tool invocations
-PROJECT-1: $(OBJS) $(USER_OBJS)
+DMOS-PROJECT-1: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "PROJECT-1" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "DMOS-PROJECT-1" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) PROJECT-1
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) DMOS-PROJECT-1
 	-@echo ' '
 
 .PHONY: all clean dependents
