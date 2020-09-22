@@ -69,9 +69,10 @@ int main()
 	   			V(load[i].threadLockptr);
 	   			V(&commonLock);
 	   		}
+	   		//sleeping to observe the output
+	   		usleep(1000);
 	   		printf("\n");
        }
-       sleep(1);
     }
 
     return 0;

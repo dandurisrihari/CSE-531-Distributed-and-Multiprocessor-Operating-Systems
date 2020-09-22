@@ -13,11 +13,14 @@
 #ifndef INC_PROJ_1_H_
 #define INC_PROJ_1_H_
 
+#define _GNU_SOURCE
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+
 
 pthread_t start_thread(void *func, void *arg);
 typedef struct semaphore_t semaphore_t;
