@@ -5,13 +5,12 @@
  *      Author 1: 	Datta Manikanta Srihari
  *      ASU ID: 	1217423272
  *
- *      Author 2: 	Datta Manikanta Srihari
- *      ASU ID: 	1217423272
+ *      Author 2: 	Chirra Reddy Sai Sankeerth Reddy
+ *      ASU ID: 	1217068242
  */
 
-
-// (c) Partha Dasgupta 2009
-// permission to use and distribute granted.
+/* (c) Partha Dasgupta 2009
+ permission to use and distribute granted. */
 
 
 #ifndef INC_THREADS_H_
